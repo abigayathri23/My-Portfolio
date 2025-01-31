@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content = "IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+<link rel="stylesheet" href="styles.css">
+<script src="https://kit.fontawesome.com/789293137c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div id="header">
+<div class = "container">
+<nav>
+<img src="D:\Github\My-Portfolio\Images\logo.png" width="100" height="100" alt="Logo">
+<ul id="sidemenu">
+<li><a href="#header">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#portfolio">Portfolio</a></li>
+<li><a href="#contact">Contact</a></li>
+<i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+</ul>
+<i class="fa-solid fa-bars"></i>
+</nav>
+<div class="header-text">
+<h1>Hi, I'm <span>Abi</span> <br>Technology Student </h1>
+</div>
+</div>
+</div>
+<!-----------about--------------->
+<div id="about">
+<div class="container">
+<div class="row">
+<div class="about-col1">
+<img src="D:\Github\My-Portfolio\Images\profile.jpg">
+</div>
+<div class="about-col2">
+<h1 class="sub-title">About Me</h1>
+<p> I'm Abi, and I'm A passionate web developer with enthusiastic collaboratio with interactive website Development.</p>
+<div class="tab-titles">
+<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+<p class="tab-links" onclick="opentab('experience')">Experience</p>
+<p class="tab-links" onclick="opentab('education')">Education</p>
+</div>
+<div class="tab-contents active-tab" id="skills">
+<ul>
+<li><span>UI/UX</span><br>Designing Web / App Interface</li>
+<li><span>Web Development</span><br>Web App Development</li>
+<li><span>App Development</span><br>Building android / IOS Apps</li>
+</ul>
+</div>
+<div class="tab-contents" id="experience">
+<ul>
+<li><span>2023 -  Current</span><br>I had work at Industry of software Product of NSCET Website team as a ISPIN member of college as Frontend Developer</li>
+<a href="mailto:"></a>t Canva Digital Ltd</li>
+
+<li><span>2023</span><br>Internship at ekart eCommerce</li>
+</ul>
+</div>
+<div class="tab-contents" id="education">
+<ul>
+<li><span>2022 - 2026</span><br>Pursing B.tech Information Technology at NSCET</li>
+<li><span>2020 - 2022</span><br>ursued Grade 11 and 12 at NSGHSS</li>
+<li><span>2023</span><br>Internship at ekart eCommerce</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!----------------Services-------------->
+<div id="services">
+<div class="container">
+<h1 class="sub-title">My Skills</h1>
+<div class="services-list">
+<div>
+<i class="fa-solid fa-code"></i>
+<h2>Web Design</h2>
+<img src="D:\Github\My-Portfolio\Images\web design.webp" width="250" height="250" >
+<p>I am very much intersted to design responsive web sites.
+Though it's new to me, I learnt a little by listening to the
+tutorial videos and refering the text books</p>
+<a href="#">Learn More</a>
+</div>
+<div>
+<i class="fa-solid fa-crop"></i>
+<h2>UI/UX Design</h2>
+<img src="D:\Github\My-Portfolio\Images\uiux.jpg" width="250" height="250" >
+
+<p>With UX, I'm interested in managing the user journey as they interact
+with a product or service, and with UI design I can focus on the actual
+construction of that product or service's interface. </p>
+<a href="#">Learn More</a>
+</div>
+<div>
+<i class="fa-brands fa-app-store"></i>
+<h2>App Design</h2>
+<img src="D:\Github\My-Portfolio\Images\app design.webp" width="250" height="250" >
+
+<p>comprising user experience (UX) and user interface (UI) elements, I can ideate,
+define solutions, create the app's flow and structure, and make stylistic choices
+from colors to fonts. Designers base choices on user research and feedback.</p>
+<a href="#">Learn More</a>
+</div>
+</div>
+</div>
+</div>
+<!---------------Portfolio------------------->
+<div id="portfolio">
+<div class = "container">
+<h1 class ="sub-title">My Projects</h1>
+<div class="work-list">
+<div class="work">
+<img src="D:\Github\My-Portfolio\Images\predictivemaintanace.png" height="400">
+<div class="layer">
+<h3>Predictive Maintanace</h3>
+<p>The app that developed a predictive maintance that predict any issue in software product before it occures. Download it from playstore</p>
+<a href="#"><i class="fa-solid fa-link"></i></a>
+</div>
+</div>
+<div class="work">
+<img src="D:\Github\My-Portfolio\Images\Cloud.jpg" height="400">
+<div class="layer">
+<h3>Cloud based file storage</h3>
+<p>the app connects you to the file storage to uploage file and Download a file from cloud. Download it from playstore</p>
+<a href="#"><i class="fa-solid fa-link"></i></a>
+</div>
+</div>
+<div class="work">
+<img src="D:\Github\My-Portfolio\Images\Todolist.jpg" height="400">
+<div class="layer">
+<h3>To-Do list App</h3>
+<p>the app connects you Check the to do list for the future done things to calculate. Download it from playstore</p>
+<a href="#"><i class="fa-solid fa-link"></i></a>
+</div>
+</div>
+</div>
+<a href="#" class ="btn">See More</a>
+</div>
+</div>
+<!----------------Contact Details-------------->
+<div id="contact">
+<div class="container">
+<div class="row">
+<div class="contact-left">
+<h2 class="sub-title">Contact Me</h2>
+<p><i class="fa-sharp fa-solid fa-paper-plane"></i>abi@gmail.com</p>
+<p><i class="fa-solid fa-square-phone"></i>98421xxxxx</p>
+<div class="social-icons">
+<a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+<a href=""><i class="fa-brands fa-twitter"></i></a>
+<a href=""><i class="fa-brands fa-instagram"></i></a>
+<a href=""><i class="fa-brands fa-linkedin"></i></a>
+</div>
+<a href="D:\Github\My-Portfolio\Abi Gayathri Resume Finalll.pdf" Download class="btn btn2">Download Resume</a>
+</div>
+<div class="contact-right">
+
+<form name="submit-to-google-sheet">
+<input type="text" name="Name" placeholder="Your Name" required>
+<input type="email" name="Email" placeholder="Your Email" required>
+<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+<button type="submit" class="btn btn2">Submit</button>
+</form>
+<span id="msg"></span>
+</div>
+</div>
+</div>
+<div class="copyright">
+<p></p>Copyright @ xyz <i class="fa-solid fa-heart"></i>
+by IT Dept.</p>
+</div>
+</div>
+<script>
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+function opentab(tabname){
+for(tablink of tablinks){
+tablink.classList.remove("active-link");
+}
+for(tabcontent of tabcontents){
+tabcontent.classList.remove("active-tab");
+}
+event.currentTarget.classList.add("active-link");
+document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+<script>
+var sidemenu = document.getElementById("sidemenu");
+function openmenu(){
+sidemenu.style.right = "0";
+}
+function closemenu(){
+sidemenu.style.right = "-200px";
+}
+</script>
+<script>
+const form = document.forms['submit-to-google-sheet']
+const msg = document.getElementById("msg")
+form.addEventListener('submit', e => {
+e.preventDefault()
+
+fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+.then(response => {
+msg.innerHTML = "Message sent Successfully"
+setTimeout(function(){
+msg.innerHTML = ""
+}, 5000)
+form.reset()
+})
+.catch(error => console.error('Error!', error.message))
+})
+</script>
+</body>
+</html>
